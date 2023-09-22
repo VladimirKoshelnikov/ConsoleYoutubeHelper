@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using YoutubeExplode;
 
 namespace YoutubeHelper.Classes
 {
-    internal abstract class Command
+    class Receiver
     {
-        public abstract void Execute();
-        public abstract void Undo();
+        public async void Operation()
+        { 
+            Console.WriteLine($"Команда получена") ;
+        }
     }
 }
