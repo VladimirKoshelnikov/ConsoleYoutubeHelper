@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using YoutubeHelper.Classes;
-using static System.Net.WebRequestMethods;
 
 namespace YoutubeHelper
 {
